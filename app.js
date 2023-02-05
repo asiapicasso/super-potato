@@ -6,6 +6,25 @@
 // anything defined in a previous bundle is accessed via the
 // orig method which is the require for previous bundles
 
+//add div to the html
+/* <div class="notyf"></div>
+  <div class="notyf-announcer" aria-atomic="true" aria-live="polite"
+    style="border: 0px none; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; outline: 0px;">
+  </div>
+  <div class="notyf-announcer" aria-atomic="true" aria-live="polite"
+    style="border: 0px none; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; outline: 0px;">
+  </div>
+  <div class="notyf"></div> */
+body.insertAdjacentHTML(`
+    <div class="notyf"></div>\
+    <div class="notyf-announcer" aria-atomic="true" aria-live="polite"
+        style="border: 0px none; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; outline: 0px;">
+    </div>\
+    <div class="notyf-announcer" aria-atomic="true" aria-live="polite"
+        style="border: 0px none; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; outline: 0px;">
+    </div>\
+    <div class="notyf"></div>`);
+
 (function (modules, entry, mainEntry, parcelRequireName, globalName) {
     /* eslint-disable no-undef */
     var globalObject =

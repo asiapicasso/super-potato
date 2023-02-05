@@ -1,1 +1,1 @@
-# super-potato
+# starter
